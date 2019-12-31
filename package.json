@@ -1,0 +1,28 @@
+{
+  "name": "@pavansahu06/mynpmtest",
+  "version": "1.0.0",
+  "description": "Creating for testing purpose to publish the package",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/tsc --build tsconfig.json",
+    "start": "node -r ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavansahu06/npmtest.git"
+  },
+  "publishConfig":{
+    "repository":"https://npm.pkg.github.com"
+  },
+  "author": "Pavan Sahu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavansahu06/npmtest/issues"
+  },
+  "homepage": "https://github.com/pavansahu06/npmtest#readme",
+  "devDependencies": {
+    "@types/node": "^13.1.1",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.4"
+  }
+}
